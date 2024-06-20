@@ -11,4 +11,4 @@ app.post("/calculate", async (req, res) => {
   return res.json({ result });
 })
 
-app.listen();
+app.listen(8080);
